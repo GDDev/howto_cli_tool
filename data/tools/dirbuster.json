@@ -1,0 +1,17 @@
+{
+    "title": "How to use DirBuster",
+    "usage": "dirbuster -u <url> -w <wordlist>",
+    "category": "Web Application Penetration Testing",
+    "description": "DirBuster is a tool used for discovering directories and files hidden in web applications. It can be useful in identifying sensitive areas of a web application that may be vulnerable to attack.",
+    "tags": [
+        {
+            "name": "-u",
+            "description": "The URL to scan"
+        },
+        {
+            "name": "-w",
+            "description": "The wordlist to use for directory and file discovery"
+        }
+    ]
+}
+

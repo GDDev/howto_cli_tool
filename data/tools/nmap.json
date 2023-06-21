@@ -1,0 +1,26 @@
+{
+  "name": "Nmap",
+  "title": "How to scan ports with Nmap",
+  "usage": "nmap -p 1-65535 <target IP address>",
+  "category": "Network Security",
+  "description": "Nmap is a free and open-source network scanner that is widely used to discover hosts and services on a network. It can be used to scan for open ports, detect operating systems and service versions, and even perform vulnerability scans.",
+  "flags": [
+    {
+      "flag": "-sS",
+      "description": "TCP SYN scan"
+    },
+    {
+      "flag": "-sU",
+      "description": "UDP scan"
+    },
+    {
+      "flag": "-O",
+      "description": "Operating system detection"
+    },
+    {
+      "flag": "-sV",
+      "description": "Service version detection"
+    }
+  ]
+}
+

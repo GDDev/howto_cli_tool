@@ -1,0 +1,18 @@
+{
+  "name": "stealth scan",
+  "explanation": "A stealth scan is a type of port scan that attempts to avoid detection by sending packets that mimic normal network traffic.",
+  "tools": [
+    {
+      "name": "nmap",
+      "usage": "nmap -sS <target>",
+      "flags": [
+        {
+          "flag": "-sS",
+          "explanation": "TCP SYN scan",
+          "description": "Sends a SYN packet to the target port. If the port is open, the target will respond with a SYN/ACK packet. If the port is closed, the target will respond with a RST packet."
+        }
+      ]
+    }
+  ]
+}
+
