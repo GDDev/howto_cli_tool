@@ -1,3 +1,4 @@
+*README created by ChatGPT
 # HowTo Tool
 
 The HowTo Tool is a collection of commonly used cybersecurity tools and techniques with simplified instructions to help beginners learn and use them easily. 
@@ -33,4 +34,3 @@ If you have suggestions, improvements or want to contribute to the HowTo Tool, p
 ## Credits
 
 The HowTo Tool was developed by GDDev and is licensed under the [MIT License](./LICENSE).
-
