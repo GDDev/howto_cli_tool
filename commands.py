@@ -18,7 +18,6 @@ def get_all(data):
 def get_tech_tool(data, tool):
     return f"{data['tools']['name' == tool]['usage']}"
 
-
 def get_tool_info(tool_str, data):
     for tool in data.get("tools", []):
         if tool["name"].lower() == tool_str.lower():
@@ -27,7 +26,6 @@ def get_tool_info(tool_str, data):
                 output_dict["description"] = tool["description"]
             return output_dict
     return {}
-
 
 def get_tags_info(data, tool_str=None):
     flags = data.get("flags", [])
